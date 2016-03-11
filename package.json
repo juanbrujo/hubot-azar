@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "description": "Hubot script que selecciona al azar de un conjunto separados por coma (,)",
   "main": "azar.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juanbrujo/hubot-azar.git"
@@ -18,6 +15,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/juanbrujo/hubot-azar/issues"
-  },
-  "homepage": "https://github.com/juanbrujo/hubot-azar#readme"
+  }
 }
