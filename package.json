@@ -1,6 +1,6 @@
 {
   "name": "hubot-azar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hubot script que selecciona al azar de un conjunto separados por coma (,)",
   "main": "azar.js",
   "scripts": {
