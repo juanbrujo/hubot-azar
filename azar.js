@@ -13,13 +13,11 @@
 // Author:
 //   @csslab
 
-
-
-var random = items[~~(Math.random() * items.length)];
+var items[~~(Math.random() * items.length)];
 
 module.exports = function(robot) {
   robot.respond(/al azar (.*)/i, function(res) {
-    var items = res.match[1].trim().split(",");
+     items = res.match[1].trim().split(",");
     msg = ":dart: Al azar: `" + random.item(items) + "` :ok_hand:";
     res.send(msg);
   });
